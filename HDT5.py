@@ -5,7 +5,7 @@ RANDOM_SEED = 42 #numero arbitrario
 NUM_PROCESSES = 200
 INTERVAL = 1
 MEMORY_SIZE = 100
-CPU_SPEED = 3
+CPU_SPEED = 6 #instrucciones por unidad de tiempo
 random.seed(RANDOM_SEED)
 
 class Process:

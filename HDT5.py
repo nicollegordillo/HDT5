@@ -2,8 +2,8 @@ import random
 import simpy
 
 RANDOM_SEED = 42 #numero arbitrario
-NUM_PROCESSES = 10
-INTERVAL = 10
+NUM_PROCESSES = 100
+INTERVAL = 1
 MEMORY_SIZE = 100
 CPU_SPEED = 3
 random.seed(RANDOM_SEED)

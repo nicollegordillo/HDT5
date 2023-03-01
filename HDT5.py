@@ -2,10 +2,10 @@ import random
 import simpy
 
 RANDOM_SEED = 42 #numero arbitrario
-NUM_PROCESSES = 200
-INTERVAL = 1
+NUM_PROCESSES = 10
+INTERVAL = 10
 MEMORY_SIZE = 100
-CPU_SPEED = 6 #instrucciones por unidad de tiempo
+CPU_SPEED = 3 #instrucciones por unidad de tiempo
 random.seed(RANDOM_SEED)
 
 class Process:
